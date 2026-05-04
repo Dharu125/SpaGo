@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaGo — Home Spa Booking</title>
+    <meta
+      name="description"
+      content="Pesan layanan home spa premium langsung ke rumah Anda. Pijat, facial, dan body treatment oleh terapis profesional."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav__inner">
+        <a href="#" class="brand">SpaGo<span>.</span></a>
+        <nav class="nav__links">
+          <a href="#services">Layanan</a>
+          <a href="#about">Tentang</a>
+          <a href="#booking">Booking</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Home Spa Experience</p>
+          <h1>Ketenangan yang datang<br /><em>ke pintu rumah Anda.</em></h1>
+          <p class="lead">
+            Nikmati ritual spa premium tanpa keluar rumah. Terapis
+            bersertifikat, peralatan steril, dan suasana yang dirancang untuk
+            relaksasi sempurna.
+          </p>
+          <div class="hero__cta">
+            <a href="#booking" class="btn btn--primary">Pesan Treatment</a>
+            <a href="#services" class="btn btn--link">Lihat Layanan →</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img
+            src="hero.jpg"
+            alt="Suasana home spa elegan dengan handuk dan lilin"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Layanan Kami</p>
+          <h2>Dirancang untuk setiap kebutuhan</h2>
+        </div>
+        <div class="services">
+          <article class="service">
+            <img src="service-1.jpg" alt="Aromatherapy massage" />
+            <div class="service__body">
+              <h3>Aromatherapy Massage</h3>
+              <p>
+                90 menit pijat menggunakan minyak esensial pilihan untuk
+                melepaskan ketegangan otot.
+              </p>
+              <span class="price">Rp 450.000</span>
+            </div>
+          </article>
+          <article class="service">
+            <img src="service-2.jpg" alt="Facial treatment" />
+            <div class="service__body">
+              <h3>Glow Facial</h3>
+              <p>
+                Perawatan wajah lengkap dengan serum premium untuk kulit cerah
+                dan terhidrasi.
+              </p>
+              <span class="price">Rp 380.000</span>
+            </div>
+          </article>
+          <article class="service">
+            <img src="service-3.jpg" alt="Body scrub" />
+            <div class="service__body">
+              <h3>Body Scrub Ritual</h3>
+              <p>
+                Eksfoliasi lembut dengan scrub alami yang membuat kulit halus
+                dan beraroma harum.
+              </p>
+              <span class="price">Rp 420.000</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--alt">
+      <div class="container about">
+        <div>
+          <p class="eyebrow">Tentang SpaGo</p>
+          <h2>Spa boutique yang berpindah ke rumah Anda</h2>
+        </div>
+        <div class="about__text">
+          <p>
+            SpaGo didirikan untuk menghadirkan pengalaman spa berkualitas hotel
+            bintang lima ke dalam kenyamanan rumah Anda. Setiap terapis kami
+            terlatih, bersertifikat, dan terpilih dengan teliti.
+          </p>
+          <ul class="features">
+            <li><strong>01.</strong> Terapis profesional bersertifikat</li>
+            <li><strong>02.</strong> Peralatan steril & produk premium</li>
+            <li><strong>03.</strong> Jadwal fleksibel, 7 hari seminggu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section">
+      <div class="container booking">
+        <div class="booking__intro">
+          <p class="eyebrow">Booking</p>
+          <h2>Pesan sesi Anda</h2>
+          <p>
+            Isi formulir di samping dan tim kami akan menghubungi Anda untuk
+            konfirmasi dalam 1 jam.
+          </p>
+        </div>
+        <form
+          class="booking__form"
+          onsubmit="
+            event.preventDefault();
+            alert('Terima kasih! Booking Anda telah diterima.');
+          "
+        >
+          <div class="field">
+            <label for="name">Nama Lengkap</label>
+            <input id="name" type="text" required placeholder="Nama Anda" />
+          </div>
+          <div class="field">
+            <label for="phone">Nomor WhatsApp</label>
+            <input id="phone" type="tel" required placeholder="+62 ..." />
+          </div>
+          <div class="field">
+            <label for="service">Pilih Layanan</label>
+            <select id="service" required>
+              <option value="">Pilih layanan...</option>
+              <option>Aromatherapy Massage</option>
+              <option>Glow Facial</option>
+              <option>Body Scrub Ritual</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="date">Tanggal</label>
+              <input id="date" type="date" required />
+            </div>
+            <div class="field">
+              <label for="time">Jam</label>
+              <input id="time" type="time" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="address">Alamat</label>
+            <textarea
+              id="address"
+              rows="3"
+              required
+              placeholder="Alamat lengkap..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Kirim Booking
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="container footer__inner">
+        <div>
+          <p class="brand">SpaGo<span>.</span></p>
+          <p class="muted">Home spa premium di Jakarta & sekitarnya.</p>
+        </div>
+        <div class="muted">
+          <p>hello@spago.id · +62 812 3456 7890</p>
+          <p>© 2026 SpaGo. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
