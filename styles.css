@@ -178,7 +178,8 @@ h3{
   grid-template-columns:repeat(3,1fr);
   gap:32px;
 }
-.service{background:#fff;
+.service{
+  background:#fff;
   border-radius:var(--radius);
   overflow:hidden;
   border:1px solid var(--line);
@@ -315,4 +316,8 @@ h3{
   .section{padding:70px 0}
   .booking__form{padding:28px}
   .field-row{grid-template-columns:1fr}
+}
+.card-text{
+  width: 250px;
+  text-align: center;
 }
