@@ -17,43 +17,59 @@
             konfirmasi dalam 1 jam.
           </p>
         </div>
-        <form
-          class="booking__form"
-          onsubmit="
-            event.preventDefault();
-            alert('Terima kasih! Booking Anda telah diterima.');
-          "
-        >
+        <form class="booking__form" action="submit_booking.php" method="POST">
           <div class="field">
             <label for="name">Nama Lengkap</label>
-            <input id="name" type="text" required placeholder="Nama Anda" />
+            <input name="name" id="name" type="text" required placeholder="Nama Anda" />
           </div>
           <div class="field">
             <label for="phone">Nomor WhatsApp</label>
-            <input id="phone" type="tel" required placeholder="+62 ..." />
+            <input name="phone" id="phone" type="tel" required placeholder="+62 ..." />
           </div>
-          <div class="field">
-            <label for="service">Pilih Layanan</label>
-            <select id="service" required>
-              <option value="">Pilih layanan...</option>
-              <option>Aromatherapy Massage</option>
-              <option>Glow Facial</option>
-              <option>Body Scrub Ritual</option>
-            </select>
-          </div>
+            <div class="field">
+              <label>Pilih Layanan</label>
+              <div class="checkbox-group">
+                <label>
+                  <input type="checkbox" name="service[]" value="Aromatherapy Massage">
+                  Aromatherapy Massage — Rp 300.000
+                </label><br>
+                <label>
+                  <input type="checkbox" name="service[]" value="Glow Facial">
+                  Glow Facial — Rp 250.000
+                </label><br>
+                <label>
+                  <input type="checkbox" name="service[]" value="Body Scrub Ritual">
+                  Body Scrub Ritual — Rp 350.000
+                </label><br>
+                <label>
+                  <input type="checkbox" name="service[]" value="Body Treatment">
+                  Body Treatment — Rp 400.000
+                </label><br>
+                <label>
+                  <input type="checkbox" name="service[]" value="Facial Treatment">
+                  Facial Treatment — Rp 280.000
+                </label><br>
+                <label>
+                  <input type="checkbox" name="service[]" value="Reflexology">
+                  Reflexology — Rp 300.000
+                </label>
+              </div>
+            </div>
+          <input type="hidden" name="price" id="price" value="0" />
           <div class="field-row">
             <div class="field">
               <label for="date">Tanggal</label>
-              <input id="date" type="date" required />
+              <input name="date" id="date" type="date" required />
             </div>
             <div class="field">
               <label for="time">Jam</label>
-              <input id="time" type="time" required />
+              <input name="time" id="time" type="time" required />
             </div>
           </div>
           <div class="field">
             <label for="address">Alamat</label>
             <textarea
+              name="address"
               id="address"
               rows="3"
               required
