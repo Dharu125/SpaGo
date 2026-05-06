@@ -10,6 +10,7 @@
     <div class="container nav__inner">
       <a href="index.html" class="brand">SpaGo</a>
       <nav class="nav__links">
+        <a href="login.php">Login</a>
         <a href="layanan.html">Layanan</a>
         <a href="tentang.html">Tentang</a>
         <a href="booking.php">Booking</a>

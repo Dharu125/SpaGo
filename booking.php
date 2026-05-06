@@ -62,8 +62,14 @@
               <input name="date" id="date" type="date" required />
             </div>
             <div class="field">
-              <label for="time">Jam</label>
-              <input name="time" id="time" type="time" required />
+              <label for="sesion">pilih Sesi</label>
+              <select name="sesion" id="sesion" required>
+                <option value="">Pilih Sesi</option>
+                <option value="09:00">09:00-12:00</option>
+                <option value="10:00">12:00-15:00</option>
+                <option value="11:00">15:00-18:00</option>
+                <option value="14:00">18:00-21:00</option>
+              </select>
             </div>
           </div>
           <div class="field">
