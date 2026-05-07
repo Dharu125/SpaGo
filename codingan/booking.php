@@ -17,7 +17,7 @@
             konfirmasi dalam 1 jam.
           </p>
         </div>
-        <form class="booking__form" action="submit_booking.php" method="POST">
+        <form class="booking__form" action="booking_sukses.php" method="POST">
           <div class="field">
             <label for="name">Nama Lengkap</label>
             <input name="name" id="name" type="text" required placeholder="Nama Anda" />
