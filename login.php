@@ -16,7 +16,7 @@
                 <input type="text" id="username" name="username" required><br><br>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required><br><a  style="text-decoration: underline; font-size: 0.7rem;" href="buatakun.php">Buat akun baru</a><br><br>
-                <input class="btn btn--primary" type="submit" value="Login">
+                <input class="btn btn--primary" type="submit" value="Login" style="text-align: center; width: 100%;">
             </form>
         </div>
     </div>
