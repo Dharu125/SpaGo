@@ -19,7 +19,7 @@
     </div>
   </header>
   <body>
-    <form class="booking__form" action="submit_booking.php" method="POST">
+    <form class="booking__form" action="login.php" method="POST">
           <div class="field">
             <label for="name">Username</label>
             <input name="name" id="username" type="text" required placeholder="Username" />

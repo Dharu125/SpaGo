@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="booking__intro">
-        <div style="border: 2px solid #ccc; padding: 20px; max-width: 400px; margin: 150px auto;" class="login">
+        <div style="border: 2px solid #ccc; padding: 20px; max-width: 400px; margin: 150px auto; box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.1);" class="login">
             <h2>Login</h2>
             <form  action="login_process.php" method="post">
                 <label for="username">Username:</label>
