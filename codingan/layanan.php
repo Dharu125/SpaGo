@@ -1,17 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpaGo - Layanan</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+<?php include 'header.php'?>
+</head>
     <link rel="stylesheet" href="styles.css"/>
-  </head>
+</head>
   <body>
     <section id="services" class="section">
       <div class="container">
@@ -29,8 +19,7 @@
             <div class="card-body">
               <h3>Aromatherapy Massage</h3>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card’s content.
+                Terapi tubuh yang menggabungkan pijat tradisional dengan penggunaan minyak esensial (essential oils) beraroma, yang berasal dari tumbuhan, bunga, atau akar
               </p>
               <span class="price">Rp 380.000</span>
             </div>
@@ -43,7 +32,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
               </p>
-              <span class="price">Rp 380.000</span>
+              <span class="price" >Rp 380.000</span>
             </div>
           </div>
           <div class="service" style="width: 18rem">
