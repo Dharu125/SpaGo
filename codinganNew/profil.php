@@ -62,7 +62,7 @@ include 'header.php';
     </div>
 
     <div class="row-actions" style="justify-content:flex-end">
-      <a href="booking_sukses.php" class="btn btn-primary">Pesan Treatment Baru</a>
+      <a href="booking.php" class="btn btn--ghost" style="border:3px solid var(--line);border-radius:999px;padding:10px 20px;font-size:14px">Pesan Treatment Baru</a>
     </div>
   </div>
 </div>

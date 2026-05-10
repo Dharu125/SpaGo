@@ -51,8 +51,8 @@ include 'header.php';
       <div class="row"><span>Tanggal</span><span><?= htmlspecialchars($date) ?></span></div>
 
     <div class="row-actions" style="justify-content:center">
-      <a href="profil.php" class="btn btn-primary">Lihat di Profil</a>
-      <a href="index.php" class="btn btn-ghost">Kembali ke Beranda</a>
+      <a href="profil.php" class="btn btn--primary" style="background: var(--ink); color: var(--bg)">Lihat di Profil</a>
+      <a href="index.php" class="btn btn--ghost">Kembali ke Beranda</a>
     </div>
   </div>
 </div>

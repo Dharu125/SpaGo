@@ -15,8 +15,8 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
   }
 }
 $pageTitle='Daftar';
-include 'header.php';
 ?>
+<link rel="stylesheet" href="style.css">
 <div class="split">
   <div class="split-art">
     <img src="../assets/candle.jpg" alt="Lilin spa">

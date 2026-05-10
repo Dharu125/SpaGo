@@ -13,8 +13,8 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
   }
 }
 $pageTitle='Masuk'; $active='login';
-include 'header.php';
 ?>
+<link rel="stylesheet" href="style.css">
 <div class="split">
   <div class="split-art">
     <img src="../assets/spa-hero.jpg" alt="Suasana home spa">
@@ -26,7 +26,7 @@ include 'header.php';
       <h2 class="title" style="margin-top:10px">Masuk ke <em style="font-style:italic;color:var(--gold)">SpaGo</em></h2>
       <p class="lead">Lanjutkan ritual ketenangan Anda.</p>
       <?php if($error): ?><div class="error"><?= htmlspecialchars($error) ?></div><?php endif; ?>
-      <form method="post" novalidate>
+      <form action="profil.php" method="post" novalidate>
         <div class="field">
           <label for="nama">Nama</label>
           <input id="nama" name="nama" type="text" placeholder="Nama Anda" required>

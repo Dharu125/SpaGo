@@ -1,3 +1,4 @@
+<?php include 'header.php'?>
 <body>
     <section id="booking" class="section">
       <div class="container booking">
@@ -18,8 +19,8 @@
             <label for="phone">Nomor WhatsApp</label>
             <input name="phone" id="phone" type="tel" required placeholder="+62 ..." />
           </div>
-            <div class="field">
-              <label>Pilih Layanan</label>
+            <div>
+              <label >Pilih Layanan</label>
               <div class="checkbox-group">
                 <label>
                   <input type="checkbox" name="service[]" value="Aromatherapy Massage">
@@ -74,8 +75,8 @@
               placeholder="Alamat lengkap..."
             ></textarea>
           </div>
-          <button type="submit" class="btn btn--primary btn--full">
-            Kirim Booking
+          <button type="submit" class="btn--ghost">
+            Booking
           </button>
         </form>
       </div>

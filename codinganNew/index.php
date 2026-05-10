@@ -5,7 +5,7 @@
     <h1 class="display" style="margin-top:18px">Ketenangan yang datang <em>ke rumah Anda.</em></h1>
     <p class="lead" style="margin-top:24px;max-width:480px">Lupakan kemacetan dan antrean. Nikmati ritual spa premium dan aroma terapi yang menenangkan tanpa keluar rumah. Cukup pesan, santai, dan biarkan kami memulihkan energi Anda.</p>
     <div class="row-actions">
-      <a href="booking_sukses.php" class="btn btn-primary">Pesan Treatment</a>
+      <a href="booking.php" class="btn btn--primary" style="background: var(--ink); color: var(--bg)">Pesan Treatment</a>
       <a href="login.php" class="btn btn-ghost">Masuk Akun →</a>
     </div>
   </div>

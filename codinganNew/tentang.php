@@ -1,23 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpaGo - Tentang Kami</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <header class="nav">
-    <div class="container nav__inner">
-      <a href="index.html" class="brand">SpaGo</a>
-      <nav class="nav__links">
-        <a href="profile.php">Profil</a>
-        <a href="layanan.html">Layanan</a>
-        <a href="tentang.html">Tentang</a>
-        <a href="booking.php">Booking</a>
-        <a href="#contact">Kontak</a>
-      </nav>
-    </div>
-  </header>
+<?php include 'header.php';?>
   <body>
     <section id="about" class="section section--alt">
       <div class="container about">
