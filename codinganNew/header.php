@@ -17,7 +17,6 @@
       <nav class="nav__links">
         <a href="profil.php" class="<?= ($active??'')==='profile'?'active':'' ?>">Profil</a>
         <a href="layanan.php">Layanan</a>
-        <a href="tentang.php">Tentang</a>
         <a href="booking.php">Booking</a>
         <a href="#contact">Kontak</a>
       </nav>
