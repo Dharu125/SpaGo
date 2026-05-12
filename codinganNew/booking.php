@@ -65,9 +65,9 @@ include 'header.php'?>
               <select name="sesion" id="sesion" required>
                 <option value="">Pilih Sesi</option>
                 <option value="09:00">09:00-12:00</option>
-                <option value="10:00">12:00-15:00</option>
-                <option value="11:00">15:00-18:00</option>
-                <option value="14:00">18:00-21:00</option>
+                <option value="12:00">12:00-15:00</option>
+                <option value="15:00">15:00-18:00</option>
+                <option value="18:00">18:00-21:00</option>
               </select>
             </div>
           </div>
