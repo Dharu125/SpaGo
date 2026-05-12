@@ -18,7 +18,7 @@
         <a href="profil.php" class="<?= ($active??'')==='profile'?'active':'' ?>">Profil</a>
         <a href="layanan.php">Layanan</a>
         <a href="booking.php">Booking</a>
-        <a href="#contact">Kontak</a>
+        <a href="https://wa.me/6281234567890" target="_blank">Kontak</a>
       </nav>
     </div>
   </header>
